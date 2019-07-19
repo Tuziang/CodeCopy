@@ -1,6 +1,6 @@
 # CodeCopy
 
-##介绍
+## 介绍
 
 这是一个 用于Typecho的 复制代码 的插件
 
@@ -8,7 +8,7 @@
 
 <img src="https://www.tuziang.com/usr/uploads/2019/04/558354113.gif" />
 
-##使用教程
+## 使用教程
 
 1. Download ZIP 下载本插件
 2. 解压，把 PasteImage-master 目录重命名为 CodeCopy 上传至博客的 /usr/plugins 目录下
