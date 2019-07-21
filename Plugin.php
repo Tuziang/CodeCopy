@@ -16,8 +16,8 @@ class CodeCopy_Plugin implements Typecho_Plugin_Interface {
      * @throws Typecho_Plugin_Exception
      */
     public static function activate() {
-        Typecho_Plugin::factory('Widget_Archive')->header = array(codecopy_Plugin, 'header');
-        Typecho_Plugin::factory('Widget_Archive')->footer = array(codecopy_Plugin, 'footer');
+        Typecho_Plugin::factory('Widget_Archive')->header = array(CodeCopy_Plugin, 'header');
+        Typecho_Plugin::factory('Widget_Archive')->footer = array(CodeCopy_Plugin, 'footer');
     }
 
     /**
